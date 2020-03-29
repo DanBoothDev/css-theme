@@ -149,3 +149,16 @@ main {
 	--gray5: #005368;
 	--gray6: #003d4c;
 }
+
+/* theme circles */
+#dark::before {
+    background: var(--gray6);
+}
+
+#light::before {
+    background: var(--gray0);
+}
+
+#solar::before {
+    background: var(--bg-solar);
+}
